@@ -1,7 +1,7 @@
 <h1>Wireshark Lab</h1>
 
 <h2>Goal</h2>
-<p>Analyze a PCAP file to identify suspicious file exfiltration over FTP, HTTP, or DNS tunneling.
+<p>Analyze a PCAP file to identify suspicious file exfiltration over FTP, HTTP, or DNS tunneling.</p>
 
 <h2>Tools Needed</h2>
 <li>Wireshark</li>
