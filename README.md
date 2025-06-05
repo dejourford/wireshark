@@ -16,7 +16,7 @@
 </ol>
 
 <h2>PCAP File</h2>
-<a href="https://www.cloudshark.org/captures/abdc8742488f">cloudshark.org/captures/abdc8742488f</a>
+<a href="https://www.cloudshark.org/captures/abdc8742488f" target="_blank">cloudshark.org/captures/abdc8742488f</a>
 
 
 <h2>Screenshots</h2>
