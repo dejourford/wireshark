@@ -24,6 +24,7 @@ You're a SOC analyst reviewing network traffic after a security alert. Your job 
 ## What I Learned
 
 ![Wireshark Download Image](wireshark_installation.png)
-The user logged in anonymously using USER and the username and PASS as the password</li>
+
+The user logged in anonymously using USER and the username and PASS as the password
 
 
