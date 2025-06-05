@@ -1,29 +1,29 @@
-<h1>Wireshark Lab</h1>
+# Wireshark Lab
 
-<h2>Goal</h2>
-<p>Analyze a PCAP file to identify suspicious file exfiltration over FTP, HTTP, or DNS tunneling.</p>
+## Goal
+Analyze a PCAP file to identify suspicious file exfiltration over FTP, HTTP, or DNS tunneling.
 
-<h2>Tools Needed</h2>
-<li>Wireshark</li>
-<li>A PCAP file to analyze</li>
+## Tools Needed
+-Wireshark
+-PCAP file to analyze
 
-<h2>Scenario</h2>
-<p>You're a SOC analyst reviewing network traffic after a security alert. Your job is to:</p>
-<ol>
-<li>Find unusual data transfers</li>
-<li>Identify potential file exfiltration</li>
-<li>Document IPs, protocols, and user credentials if found</li>
-</ol>
+## Scenario
+You're a SOC analyst reviewing network traffic after a security alert. Your job is to:
 
-<h2>PCAP File</h2>
+1. Find unusual data transfers
+2. Identify potential file exfiltration
+3. Document IPs, protocols, and user credentials if found
+
+
+## PCAP File
 <a href="https://www.cloudshark.org/captures/abdc8742488f" target="_blank">cloudshark.org/captures/abdc8742488f</a>
 
 
-<h2>Screenshots</h2>
+## Screenshots
 
-<h2>What I Learned</h2>
-<ol>
+## What I Learned
+
 ![Wireshark Download Image](wireshark_installation.png)
-<li>The user logged in anonymously using USER and the username and PASS as the password</li>
+The user logged in anonymously using USER and the username and PASS as the password</li>
 
-</ol>
+
