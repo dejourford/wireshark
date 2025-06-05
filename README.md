@@ -23,7 +23,7 @@
 
 <h2>What I Learned</h2>
 <ol>
-![Dashboard Users Image](./wireshark_installation.png)
+![Dashboard Users Image](wireshark_installation.png)
 <li>The user logged in anonymously using USER and the username and PASS as the password</li>
 <li>
 </ol>
