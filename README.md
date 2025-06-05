@@ -13,7 +13,7 @@
 <li>Find unusual data transfers</li>
 <li>Identify potential file exfiltration</li>
 <li>Document IPs, protocols, and user credentials if found</li>
-<ol>
+</ol>
 
 <h2>PCAP File</h2>
 <a href="https://www.github.com/kevthehermit/PcapSamples">https://github.com/kevthehermit/PcapSamples</a>
