@@ -46,7 +46,9 @@ Following the TCP stream to track activity cont.
 
 ## What I Learned
 1.The user logged in anonymously using "USER" as the username and "PASS" as the password
+
 2.The user used the PWD command to see the current directory
+
 3.The user used the LIST command to list all files in current directory
 4.The user set the type mode to "I" to prevent file damage during transfer
 5.The user checked the size of the file using the SIZE command
