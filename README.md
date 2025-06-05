@@ -8,7 +8,7 @@
 <li>A PCAP file to analyze</li>
 
 <h2>Scenario</h2>
-<p>You're a SOC analyst reviewing network traffic after a security alert. Your job is to:
+<p>You're a SOC analyst reviewing network traffic after a security alert. Your job is to:</p>
 <ol>
 <li>Find unusual data transfers</li>
 <li>Identify potential file exfiltration</li>
