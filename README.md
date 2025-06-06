@@ -1,11 +1,11 @@
 # Wireshark Lab
 
-## Goal
+## Obejective
 Analyze a PCAP file to identify suspicious file exfiltration over FTP, HTTP, or DNS tunneling.
 
 ## Tools Needed
 -Wireshark
--PCAP file to analyze
+-<a href="https://www.cloudshark.org/captures/abdc8742488f">PCAP file</a> to analyze
 
 ## Scenario
 You're a SOC analyst reviewing network traffic after a security alert. Your job is to:
@@ -14,37 +14,29 @@ You're a SOC analyst reviewing network traffic after a security alert. Your job 
 2. Identify potential file exfiltration
 3. Document IPs, protocols, and user credentials if found
 
-
-## PCAP File
-<a href="https://www.cloudshark.org/captures/abdc8742488f" target="_blank">cloudshark.org/captures/abdc8742488f</a>
-
-
-## Screenshots
-![Wireshark Download Image](wireshark_installation.png)
-Downloaded Wireshark
-
-![Opened File](open_file.png)
-Opened the packet file
-
-![Filter by FTP](filter_by_ftp.png)
-Filter the packets by FTP
-
-![User Packet](user_packet.png)
-The packet with the "USER" details
-
-![Password Packet](password_packet.png)
-The packet with the "PASS" details
-
-![Sort by Command](command_sort.png)
-Sorted all packets by STORE, LIST, and RETR commands
-
-![TCP Stream Image](tcp_stream.png)
-Following the TCP stream to track activity
-
-![TCP Stream Image](tcp_stream_2.png)
-Following the TCP stream to track activity cont.
+## Files Included
+| File | Description |
+|------|-------------|
+| `ftp.pcap` | Packet Capture File |
 
 ## What I Learned
+-How to filter packet traffic
+-How to identify cleartext usernames and passwords
+-What FTP commands like RETR, STOR, and CWD do
+-How Type I and Type A affect file transfer modes
+-Why SITE CHMOD 777 is a security risk
+-How to follow TCP streams to monitor user actions
+-How to recognize signs of exfiltration over FTP
+
+## Security Topics Covered
+-Directory Enumeration & Traversal
+-Access Control
+-File Permissions
+-Cleartext Credential Exposure
+-Insecure Protocol Usage (FTP)
+
+
+## Analysis 
 1.The user logged in anonymously using "USER" as the username and "PASS" as the password
 
 2.The user used the PWD command to see the current directory
@@ -86,6 +78,30 @@ Following the TCP stream to track activity cont.
 
 20.The user used the QUIT command to terminate session 
 
+## Screenshots
+![Wireshark Download Image](wireshark_installation.png)
+Downloaded Wireshark
+
+![Opened File](open_file.png)
+Opened the packet file
+
+![Filter by FTP](filter_by_ftp.png)
+Filter the packets by FTP
+
+![User Packet](user_packet.png)
+The packet with the "USER" details
+
+![Password Packet](password_packet.png)
+The packet with the "PASS" details
+
+![Sort by Command](command_sort.png)
+Sorted all packets by STORE, LIST, and RETR commands
+
+![TCP Stream Image](tcp_stream.png)
+Following the TCP stream to track activity
+
+![TCP Stream Image](tcp_stream_2.png)
+Following the TCP stream to track activity cont.
 
 
 
