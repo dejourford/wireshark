@@ -6,7 +6,7 @@ Analyze a PCAP file to identify suspicious file exfiltration over FTP, HTTP, or 
 ## Tools Needed
 -Wireshark
 
--<a href="https://www.cloudshark.org/captures/abdc8742488f">PCAP file</a> to analyze
+-<a href="https://www.cloudshark.org/captures/abdc8742488f" target="_blank">PCAP file</a> to analyze
 
 ## Scenario
 You're a SOC analyst reviewing network traffic after a security alert. Your job is to:
