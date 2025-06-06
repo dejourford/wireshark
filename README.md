@@ -73,36 +73,39 @@ You're a SOC analyst reviewing network traffic after a security alert. Your job 
 
 18.The user attempted to update file permissions to 777 to allow full-access to all users
 
-
 19.The request was denied by the server.
 
 20.The user used the QUIT command to terminate session 
 
 ## Screenshots
-![Wireshark Download Image](wireshark_installation.png)
+<img src="wireshark_installation.png" alt="Wireshark Download Screenshot" width="400"/>
+
 Downloaded Wireshark
 
-![Opened File](open_file.png)
+<img src="open_file.png" alt="Opened File Screenshot" width="400"/>
+
 Opened the packet file
 
-![Filter by FTP](filter_by_ftp.png)
+<img src="filter_by_ftp.png" alt="Filter by FTP Screenshot" width="400"/>
+
 Filter the packets by FTP
 
-![User Packet](user_packet.png)
+<img src="user_packet.png" alt="User Packet Screenshot" width="400"/>
+
 The packet with the "USER" details
 
-![Password Packet](password_packet.png)
+<img src="password_packet.png" alt="Password Packet Screenshot" width="400"/>
+
 The packet with the "PASS" details
 
-![Sort by Command](command_sort.png)
+<img src="command_sort.png" alt="Command Sort Screenshot" width="400"/>
+
 Sorted all packets by STORE, LIST, and RETR commands
 
-![TCP Stream Image](tcp_stream.png)
+<img src="tcp_stream.png" alt="TCP Stream Screenshot" width="400"/>
+
 Following the TCP stream to track activity
 
-![TCP Stream Image](tcp_stream_2.png)
+<img src="tcp_stream_2.png" alt="TCP Stream Screenshot" width="400"/>
+
 Following the TCP stream to track activity cont.
-
-
-
-
